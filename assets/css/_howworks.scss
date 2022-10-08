@@ -1,0 +1,106 @@
+.howworks {
+	position: relative;
+	background: #C1F0FF;
+	padding-top: 75px;
+	z-index: 15;
+	
+	.container{
+		padding-bottom: 240px;
+		position: relative;
+	}
+
+	h2 {
+		margin-bottom: 90px;
+	}
+
+	.row {
+		display: flex;
+		margin: auto;
+		max-width: 990px;
+	}
+
+	.item {
+		width: 235px;
+		font-family: var(--font-myriad-pro);
+		color: #137291;
+	}
+
+	.item-1,
+	.item-4 {
+		height: 158px;
+
+	}
+
+	.item-2,
+	.item-5 {
+		height: 164px;
+	}
+
+	.item-3 {
+		padding-top: 45px;
+	}
+
+	.item-3,
+	.item-6 {
+		height: 140px;
+	}
+
+	.scheme {
+		padding-top: 23px;
+
+		img {
+			margin-left: -35px;
+			margin-right: 35px;
+
+			&:first-child {
+				position: relative;
+			}
+
+			&:last-child {
+				margin-top: -160px;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.cloud {
+		position: absolute;
+		height: auto;
+	}
+
+	.cloud1 {
+		top: 30px;
+    right: 15%;
+		width: 117px;
+	}
+
+	.cloud2 {
+    top: 200px;
+    left: -253px;
+		width: 348px;
+	}
+
+	.cloud3 {
+    top: 380px;
+    right: -222px;
+		width: 348px;
+	}
+
+	.cloud4 {
+		bottom: 93px;
+    right: 23%;
+		width: 184px;
+	}
+
+	.cloud5 {
+    bottom: -40px;
+    left: 10px;
+		width: 348px;
+	}
+
+	.cloud6 {
+		bottom: -110px;
+		right: -5px;
+		width: 117px;
+	}
+}

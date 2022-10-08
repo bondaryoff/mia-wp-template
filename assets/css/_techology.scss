@@ -1,0 +1,125 @@
+//TECHNOLOGY
+.techology {
+	overflow: hidden;
+	padding-bottom: 300px;
+	position: relative;
+	padding-top: 235px;
+	background: rgb(161, 122, 230);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(161, 122, 230, 1) 0%, rgba(139, 95, 199, 1) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(161, 122, 230, 1) 0%, rgba(139, 95, 199, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(161, 122, 230, 1) 0%, rgba(139, 95, 199, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a17ae6', endColorstr='#8b5fc7', GradientType=1);
+
+	.top {
+		position: absolute;
+		top: 0;
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+	}
+
+
+	.bottom {
+		height: 220px;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+
+		img {
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+	}
+
+	.howworks-clouds {
+		height: 175px;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+
+		img {
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+	}
+
+	.container {
+		position: relative;
+	}
+
+	h2 {
+		color: #fff;
+		max-width: 900px;
+		margin: auto;
+	}
+
+	.row {
+		display: flex;
+		position: relative;
+		margin: auto;
+		margin-top: 33px;
+		max-width: 1030px;
+		grid-gap: 87px;
+		justify-content: center;
+		padding-top: 80px;
+	}
+
+	.line {
+		top: 0;
+		position: absolute;
+		max-width: 829px;
+	}
+
+	.item {
+		font-size: 26px;
+		font-weight: 500;
+		color: #fff;
+		position: relative;
+		text-align: center;
+		flex-shrink: 0;
+		max-width: 33%;
+	}
+
+	.text {
+		padding-top: 18px;
+	}
+
+	.star {
+		position: absolute;
+		height: auto;
+	}
+
+	.star1 {
+		top: -80px;
+		right: 53px;
+		width: 49px;
+	}
+
+	.star2 {
+		top: -10px;
+		right: 10px;
+		width: 25px;
+	}
+
+	.star3 {
+		top: 120px;
+		left: 35px;
+		width: 40px;
+	}
+
+	.star4 {
+		width: 25px;
+		bottom: -80px;
+		left: 45px;
+	}
+
+	.star5 {
+		width: 40px;
+		right: 360px;
+		bottom: -140px;
+	}
+}

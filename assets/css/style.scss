@@ -2,11 +2,271 @@
 @import 'fonts';
 
 :root {
-	// --font-main:;
+	// fonts
 	--font-avenir: 'Avenir';
 	--font-myriad-pro: 'Myriad Pro';
 	--font-chalkboard-se: 'chalkboardSe';
 	--font-avenir-next: 'Avenir Next';
 	--font-avenir-next-demi: 'Avenir Next Demi';
 	--font-source-sans-pro: 'Source Sans Pro';
+	// --font-main: var(--font-avenir);
+
+	// colors
+	--color-dark: #4A3838;
+	// --color-yellow:#FCDF29;
+
+}
+
+
+a,
+a:hover {
+	text-decoration: none;
+	color: var(--color-dark);
+}
+
+body {
+	font-family: var(--font-avenir-next);
+	color: var(--color-dark);
+	font-size: 20px;
+}
+
+.container {
+	max-width: 1280px;
+	margin: auto;
+}
+
+.svg {
+	width: 100%;
+	height: auto;
+
+	svg {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+.logo {
+	display: inline-block;
+	width: 107px;
+	height: auto;
+}
+
+//BUTTON
+.btn {
+	width: 100%;
+	max-width: 310px;
+	display: block;
+
+	span {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #FFE229;
+		font-size: 25.5px;
+		font-weight: bold;
+		font-family: var(--font-avenir-next-demi);
+		height: 100px;
+		border-radius: 100px;
+		box-sizing: border-box;
+		border-top: 7px solid #FFF7BF;
+		border-bottom: 7px solid #ABEAFF;
+	}
+
+	&-whith-shad {
+		max-width: 335px;
+		border-radius: 100px;
+		background: #ACDAE7;
+		padding: 13px;
+		box-sizing: border-box;
+		border-top: 4px solid #92CEE0;
+		border-bottom: 4px solid #E4F8FF;
+
+		span {
+			height: 95px;
+			border-bottom: 0;
+			padding-bottom: 7px;
+		}
+	}
+}
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+@import 'header';
+@import 'promo';
+@import 'how-work';
+@import 'techology';
+@import 'howworks';
+@import 'approved';
+@import 'reviews';
+@import 'tasks';
+@import 'faq';
+@import 'try';
+
+@import 'animate';
+
+
+.blog {
+	padding-top: 100px;
+	padding-bottom: 65px;
+
+	h2 {
+		margin-bottom: 50px;
+	}
+
+	.row {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 30px 10px;
+		padding-bottom: 60px;
+	}
+
+	.item {
+		position: relative;
+		border-radius: 18px;
+		border: 4px solid #C1F0FF;
+		grid-row-start: 2;
+		grid-row-end: 3;
+		display: flex;
+		box-sizing: border-box;
+
+		.img {
+			flex-shrink: 0;
+			width: 50%;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			border-radius: 10px 0 0 10px;
+
+			img {
+				display: block;
+				height: auto;
+				width: auto;
+				min-width: 100%;
+				min-height: 100%;
+			}
+
+			.info {
+				font-weight: 500;
+				color: #fff;
+				position: absolute;
+			}
+		}
+
+		.descr {
+			padding: 20px 25px;
+			flex-shrink: 0;
+			width: 50%;
+			box-sizing: border-box;
+			padding-bottom: 40px;
+
+			h2 {
+				text-align: left;
+				font-size: 26px;
+				margin-bottom: 25px;
+			}
+
+			.text {}
+
+			.date {
+				right: 10px;
+				bottom: 5px;
+				position: absolute;
+				font-weight: 500;
+				color: #C1F0FF;
+				font-size: 15px;
+			}
+		}
+
+
+
+
+		&:first-child {
+			border-radius: 36px;
+			border: 7px solid #C1F0FF;
+			grid-column-start: 1;
+			grid-column-end: 3;
+			grid-row-start: 1;
+			grid-row-end: 2;
+
+			.img {
+				border-radius: 30px 0 0 30px;
+
+				.info {
+					font-size: 18px;
+					bottom: 16px;
+					right: 35px;
+				}
+			}
+
+			h2 {
+				font-size: 36px;
+			}
+
+			.descr {
+				max-width: 575px;
+				padding: 30px 60px;
+				padding-bottom: 50px;
+
+				.text {
+					font-size: 26px;
+				}
+
+				.date {
+					bottom: 20px;
+					right: 40px;
+					font-size: 18px;
+				}
+			}
+		}
+
+		&:nth-child(2) {
+			grid-column-start: 1;
+			grid-column-end: 2;
+		}
+
+		&:nth-child(3) {
+			grid-column-start: 2;
+			grid-column-end: 3;
+		}
+	}
+
+	.btn-grean {
+		margin: auto;
+		display: block;
+		width: 100%;
+		max-width: 335px;
+		border-radius: 100px;
+		background: #EAF5F9;
+		padding: 13px;
+		box-sizing: border-box;
+
+		span {
+			height: 95px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: #54E851;
+			font-size: 25.5px;
+			font-weight: bold;
+			font-family: var(--font-avenir-next-demi);
+			border-radius: 100px;
+			box-sizing: border-box;
+			border-top: 4px solid #84FF82;
+		}
+	}
+}
+
+
+.footer{
+	padding-top: 60px;
+	padding-bottom: 75px;
+	background: #F5FBFF;
 }

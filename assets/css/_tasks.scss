@@ -1,0 +1,33 @@
+.tasks {
+	padding-top: 290px;
+	padding-bottom: 310px;
+	background: rgb(186, 122, 230);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(186, 122, 230, 1) 0%, rgba(139, 95, 199, 1) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(186, 122, 230, 1) 0%, rgba(139, 95, 199, 1) 100%);
+	background: radial-gradient(ellipse at center, rgba(186, 122, 230, 1) 0%, rgba(139, 95, 199, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ba7ae6', endColorstr='#8b5fc7', GradientType=1);
+	position: relative;
+
+	h2 {
+		color: #fff;
+	}
+
+	&-top {
+		top: 0;
+		position: absolute;
+
+		img {
+			display: block;
+		}
+	}
+
+	&-bottom {
+		bottom: 0;
+		position: absolute;
+
+		img {
+			display: block;
+		}
+	}
+
+}

@@ -1,0 +1,100 @@
+.promo .buble {
+	animation: buble 20s linear infinite;
+}
+
+@keyframes buble {
+
+	0% {
+		transform: translate(0px, 0px) rotate(0);
+	}
+
+	25% {
+		transform: translate(10px, -30px) rotate(15deg);
+	}
+
+	50% {
+		transform: translate(0, -70px) rotate(5deg);
+	}
+
+	75% {
+		transform: translate(-10px, -30px) rotate(-5deg);
+	}
+
+	100% {
+		transform: translate(0px, 0px) rotate(0);
+	}
+}
+
+.promo .buble-sm {
+	animation: buble-sm 20s linear infinite;
+}
+
+@keyframes buble-sm {
+
+	0% {
+		transform: translate(0px, 0px) rotate(0);
+	}
+
+	25% {
+		transform: translate(10px, 25px) rotate(15deg);
+	}
+
+	50% {
+		transform: translate(0, 50px) rotate(5deg);
+	}
+
+	75% {
+		transform: translate(-10px, 25px) rotate(-5deg);
+	}
+
+	100% {
+		transform: translate(0px, 0px) rotate(0);
+	}
+}
+
+
+@keyframes balloon {
+
+	0% {
+		transform: translate(0px, 0px) rotate(0);
+	}
+
+	25% {
+		transform: translate(10px, -25px) rotate(-15deg);
+	}
+
+	50% {
+		transform: translate(0, -50px) rotate(-5deg);
+	}
+
+	75% {
+		transform: translate(-10px, -25px) rotate(5deg);
+	}
+
+	100% {
+		transform: translate(0px, 0px) rotate(0);
+	}
+}
+
+.how-work .balloon {
+	animation: balloon 20s linear infinite;
+}
+
+@keyframes panda {
+
+	0% {
+		transform: translate(50px, -15px);
+	}
+
+	50% {
+		transform: translate(0px, 25px);
+	}
+
+	100% {
+		transform: translate(50px, -15px);
+	}
+}
+
+.how-work .panda {
+	animation: panda 30s linear infinite;
+}
